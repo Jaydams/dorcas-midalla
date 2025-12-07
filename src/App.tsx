@@ -80,6 +80,13 @@ const allImages = [
   '/Images/jh.jpg',
   '/Images/jlb.jpg',
   '/Images/onoi.jpg',
+  '/Images/1.jpg',
+  '/Images/2.jpg',
+  '/Images/3.jpg',
+  '/Images/4.jpg',
+  '/Images/5.jpg',
+  '/Images/6.jpg',
+  '/Images/7.jpg',
 ];
 
 // Fisher-Yates shuffle algorithm to randomize array
