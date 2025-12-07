@@ -172,13 +172,13 @@ export const BirthdaySlideshow = ({
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.8, ease: 'easeOut' }}
-          className="absolute top-8 left-0 right-0 text-center z-20 px-4"
+          className="absolute bottom-16 left-0 right-0 text-center z-20 px-4"
         >
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: 0.6 }}
-            className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-2 drop-shadow-2xl"
+            className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-2 drop-shadow-2xl"
           >
             {celebrantName}
           </motion.h1>
@@ -186,7 +186,7 @@ export const BirthdaySlideshow = ({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9, duration: 0.6 }}
-            className="font-light text-lg md:text-2xl text-gold-300 drop-shadow-lg tracking-wide"
+            className="font-light text-md md:text-2xl text-gold-300 drop-shadow-lg tracking-wide"
           >
             {occasion}
           </motion.p>
