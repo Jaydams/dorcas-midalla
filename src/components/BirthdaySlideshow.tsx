@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SlideImage } from './SlideImage';
 import { ProgressIndicators } from './ProgressIndicators';
-import { Controls } from './Controls';
 import { ConfettiEffect } from './ConfettiEffect';
 import { useKeyboardNavigation } from '../hooks/useKeyboardNavigation';
 
@@ -84,13 +83,13 @@ export const BirthdaySlideshow = ({
     setIsPlaying(false);
   }, []);
 
-  const toggleFullscreen = useCallback(() => {
-    if (!document.fullscreenElement) {
-      containerRef.current?.requestFullscreen();
-    } else {
-      document.exitFullscreen();
-    }
-  }, []);
+  // const toggleFullscreen = useCallback(() => {
+  //   if (!document.fullscreenElement) {
+  //     containerRef.current?.requestFullscreen();
+  //   } else {
+  //     document.exitFullscreen();
+  //   }
+  // }, []);
 
   // Keyboard navigation
   useKeyboardNavigation({

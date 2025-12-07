@@ -51,9 +51,7 @@ export const SlideImage = ({ src, alt, isActive }: SlideImageProps) => {
           src={src}
           alt={alt}
           className="max-w-full max-h-full object-contain"
-          style={{
-            imageRendering: 'high-quality',
-          }}
+         
           animate={
             isActive
               ? {
